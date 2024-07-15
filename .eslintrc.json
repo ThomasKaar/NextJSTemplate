@@ -16,8 +16,8 @@
     "**/dist/*",
     "/docs/**",
     "/out/**",
-    "**/jest.config.js",
     "**/next.config.js",
+    "**/vitest.config.js",
     "**/postcss.config.js",
     "**/tailwind.config.js"
   ],

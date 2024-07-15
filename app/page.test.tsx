@@ -7,7 +7,8 @@
 //
 
 import { render, screen } from '@testing-library/react'
-import '@testing-library/jest-dom'
+import '@testing-library/jest-dom/vitest';
+import { expect, describe, it } from 'vitest'
 import Home from './page'
 
 describe('Home Component', () => {
