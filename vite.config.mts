@@ -15,7 +15,7 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     coverage: {
-      include: ['**/*.ts', '**/*.tsx'],
+      include: ['**/*.ts', '**/*.tsx', '**/*.js'],
       exclude: [
         ...(configDefaults.coverage.exclude ?? ['']),
         '**/build/**',
